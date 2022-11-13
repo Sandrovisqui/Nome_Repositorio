@@ -25,5 +25,35 @@ O modelo inicial é:
 
 Alteração de teste para branch Main...
 
+https://www.youtube.com/watch?v=UR9X2VBECE4
+vi gitignore
+*.exe
+*.dll
+*.bpl
+*.bpi
+*.dcp
+*.So
+*.apk
+*.dcr
+*.map
+*.jersey
+*.rsm
+*.tds
+*.dcu
+*.lib
+*.a
+*.ocx
+*.cfg
+*.hpp
+*.Resouce.rc
+*.Local
+*.identcache
+*.projdata
+*.tvsconfig
+*.dsk
+*.stat
+
+
+
 
 

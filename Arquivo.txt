@@ -10,3 +10,7 @@ git commit -m "Observação de alteração do arquivo
 git push = Envia o arquivo para o repositorio do GitHub
 
 https://www.youtube.com/watch?v=LJqQ_U4sq7Y
+git checkout -b Nova_Branch = Criar uma nova Branch pelo git
+git push --set-upstream origin Nova_Branch = Para adicionar um arquivo em um repositorio diferente.
+
+

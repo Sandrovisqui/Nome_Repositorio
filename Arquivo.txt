@@ -14,6 +14,6 @@ git checkout -b Nova_Branch = Criar uma nova Branch pelo git
 
 git push --set-upstream origin Nova_Branch = Para adicionar um arquivo em um repositorio diferente.
 	Nota Ao mundar o nome do Repositório tipo main ou Main ele criará um novo repositório de acordo com o que esta
-	entre parenteses no git (Main).
+	entre parenteses no git (Main)..
 
 

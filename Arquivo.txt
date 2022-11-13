@@ -26,6 +26,7 @@ O modelo inicial é:
 Alteração de teste para branch Main...
 
 https://www.youtube.com/watch?v=UR9X2VBECE4
+https://www.youtube.com/watch?v=9rElHOJT-qY
 vi gitignore
 *.exe
 *.dll

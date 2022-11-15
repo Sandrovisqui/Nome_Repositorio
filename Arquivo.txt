@@ -10,6 +10,9 @@ git commit -m "Observação de alteração do arquivo
 git push = Envia o arquivo para o repositorio do GitHub
 git pull origin Main= Para baixar as atualizações do repositorio do GitHub
 
+git branch = Listar apenas os branch da sua maquina
+git branch -a = listar apenas os branch online
+
 https://www.youtube.com/watch?v=LJqQ_U4sq7Y
 git checkout -b Nova_Branch = Criar uma nova Branch pelo git
 

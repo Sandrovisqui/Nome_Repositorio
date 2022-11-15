@@ -8,5 +8,57 @@ git status = Verifica pendencias de salvamento
 git add 'NOME DO ARQUIVO.XXX' = Adiciona o arquivo no git
 git commit -m "Observação de alteração do arquivo
 git push = Envia o arquivo para o repositorio do GitHub
+git pull origin Main= Para baixar as atualizações do repositorio do GitHub
 
 https://www.youtube.com/watch?v=LJqQ_U4sq7Y
+git checkout -b Nova_Branch = Criar uma nova Branch pelo git
+
+git push --set-upstream origin Nova_Branch = Para adicionar um arquivo em um repositorio diferente.
+	Nota Ao mundar o nome do Repositório tipo main ou Main ele criará um novo repositório de acordo com o que esta
+	entre parenteses no git (Main)..
+
+O modelo inicial é:
+01 - Fazer o clone da pasta;
+02 - Criar no GitHube um nome para o repositório com o nome do responsável pela manutenção;
+03 - Fazer as alterações do arquivo na pasta local;
+04 - Configurar os procedimentos git:
+          Realizar o procedimento do git usando o "git push --set-upstream origin Nova_Branch";
+
+Alteração de teste para branch Main..._____
+
+https://www.youtube.com/watch?v=UR9X2VBECE4
+https://www.youtube.com/watch?v=9rElHOJT-qY
+vi gitignore
+*.exe
+*.dll
+*.bpl
+*.bpi
+*.dcp
+*.So
+*.apk
+*.dcr
+*.map
+*.jersey
+*.rsm
+*.tds
+*.dcu
+*.lib
+*.a
+*.ocx
+*.cfg
+*.hpp
+*.Resouce.rc
+*.Local
+*.identcache
+*.projdata
+*.tvsconfig
+*.dsk
+*.stat
+
+
+...........
+
+
+
+
+

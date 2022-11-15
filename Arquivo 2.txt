@@ -20,7 +20,8 @@ git fetch --prune --all = para enviar a Nova_Branch criada no git para o reposit
 git checkout Nova_Branch = Para Cetar a Nova Branch.
 
 git branch = Listar apenas os branch da sua maquina
-git branch -a = listar apenas os branch online
+git branch -a = listar apenas os branch online.
+
 
 
 

@@ -5,27 +5,42 @@ git init = inicia o git na nova pasta
 
 
 git status = Verifica pendencias de salvamento
-git add 'NOME DO ARQUIVO.XXX' = Adiciona o arquivo no git
+git add 'NOME DO ARQUIVO.XXX' = Adiciona o arquivo no git (git add *) >> Alterar todos
 git commit -m "Observação de alteração do arquivo
 git push = Envia o arquivo para o repositorio do GitHub
-git pull origin Main= Para baixar as atualizações do repositorio do GitHub
+
+
+https://www.youtube.com/watch?v=LJqQ_U4sq7Y
+git checkout -b Nova_Branch = Criar uma nova Branch pelo git porem isso ficara na maquina local
+git Push origin Nova_Branch = Transferencia de dados entre branch apos baixados
+	Para enviar a nova Branch para o repositório remoto com dados transferencia de dados entre as Branch
+git ls -lia = para ver itens a ser atualizado.
+git pull origin Main = Para baixar as atualizações do repositorio do GitHub
+git fetch --prune --all = para enviar a Nova_Branch criada no git para o repositório online.
+git checkout Nova_Branch = Para Cetar a Nova Branch.
 
 git branch = Listar apenas os branch da sua maquina
 git branch -a = listar apenas os branch online
 
-https://www.youtube.com/watch?v=LJqQ_U4sq7Y
-git checkout -b Nova_Branch = Criar uma nova Branch pelo git
 
-git push --set-upstream origin Nova_Branch = Para adicionar um arquivo em um repositorio diferente.
-	Nota Ao mundar o nome do Repositório tipo main ou Main ele criará um novo repositório de acordo com o que esta
+
+Nota Ao mundar o nome do Repositório tipo main ou Main ele criará um novo repositório de acordo com o que esta
 	entre parenteses no git (Main)..
 
+git push origin :Nova_Branch = Para apagar o branch remoto;
+
+git push --set-upstream origin Nova_Branch = Para adicionar um arquivo em um repositorio diferente - quando isso for solicitado o sistema informa que ha falta de sincronismo 
+e precisa ser feito um git merge Nova_Branch.
+	
 O modelo inicial é:
 01 - Fazer o clone da pasta;
 02 - Criar no GitHube um nome para o repositório com o nome do responsável pela manutenção;
 03 - Fazer as alterações do arquivo na pasta local;
 04 - Configurar os procedimentos git:
           Realizar o procedimento do git usando o "git push --set-upstream origin Nova_Branch";
+
+//Criação de Arquivo
+vim Arquivo_3.txt
 
 Alteração de teste para branch Main..._____
 
@@ -59,7 +74,7 @@ vi gitignore
 *.stat
 
 
-...........b
+...........
 
 
 

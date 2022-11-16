@@ -1,0 +1,20 @@
+CMD
+
+cd.. = Para voltar a pasta;
+
+>dir = Lista o arquivo e pasta do disco C
+cd NomeDaPasta  = Acessar a pasta quando tiver o <dir>
+
+cls = Limpar a tela;
+md Nome_pasta = Griar pasta
+rd Nome_pasta = Deleta a Pasta
+
+Para executar um arquivo pelo cmd
+Lab_Usinagem.exe
+O nome ha de ser identico a escrita
+
+
+
+
+
+

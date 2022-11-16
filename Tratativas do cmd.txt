@@ -13,6 +13,9 @@ Para executar um arquivo pelo cmd
 Lab_Usinagem.exe
 O nome ha de ser identico a escrita
 
+Para mudar do diretorio C para D
+D:
+
 
 
 

@@ -58,7 +58,7 @@ vi gitignore
 *.stat
 
 
-...........
+...........AA
 Problema com as credenciais
 git config --global --unset credential.helper
 

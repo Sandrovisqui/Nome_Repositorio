@@ -8,7 +8,7 @@ git status = Verifica pendencias de salvamento
 git add 'NOME DO ARQUIVO.XXX' = Adiciona o arquivo no git ou git add * para enviar todos
 git commit -m "Observação de alteração do arquivo
 git push = Envia o arquivo para o repositorio do GitHub
-git pull origin Main= Para baixar as atualizações do repositorio do GitHub
+git pull origin Main = Para baixar as atualizações do repositorio do GitHub
 $ git fetch --prune --all = Para baixar as atualizações do repositório do arquivo ja existente.
 
 

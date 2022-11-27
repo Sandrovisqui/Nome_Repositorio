@@ -10,6 +10,7 @@ git commit -m "Observação de alteração do arquivo
 git push = Envia o arquivo para o repositorio do GitHub
 git pull origin Main = Para baixar as atualizações do repositorio do GitHub
 $ git fetch --prune --all = Para baixar as atualizações do repositório do arquivo ja existente.
+$ git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
 
 
 https://www.youtube.com/watch?v=LJqQ_U4sq7Y

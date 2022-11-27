@@ -60,6 +60,7 @@ vi gitignore
 
 
 ...........AA
+11:10
 Problema com as credenciais
 git config --global --unset credential.helper
 

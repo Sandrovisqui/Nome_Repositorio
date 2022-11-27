@@ -12,6 +12,17 @@ git pull origin Main = Para baixar as atualizações do repositorio do GitHub
 $ git fetch --prune --all = Para baixar as atualizações do repositório do arquivo ja existente.
 $ git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
 
+//Para transferir dados de uma branch
+o git deve estar cetado no destino
+
+git checkout main
+
+//em seguida
+git merge Branch_Origen
+
+//Em seguinda 
+git Push
+
 
 https://www.youtube.com/watch?v=LJqQ_U4sq7Y
 git checkout -b Nova_Branch = Criar uma nova Branch pelo git

@@ -17,6 +17,7 @@ Para mudar do diretorio C para D
 D:
 
 11:40
+11:45
 
 
 

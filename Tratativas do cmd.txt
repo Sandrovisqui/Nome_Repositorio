@@ -1,6 +1,8 @@
 CMD
 
 cd.. = Para voltar a pasta;
+cd Nome_da_Pasta = Para Abrir uma pasta
+
 
 >dir = Lista o arquivo e pasta do disco C
 cd NomeDaPasta  = Acessar a pasta quando tiver o <dir>
